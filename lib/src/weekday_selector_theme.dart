@@ -133,7 +133,7 @@ class WeekdaySelectorThemeData with Diagnosticable {
 
   @override
   int get hashCode {
-    return Object.hashAll(([
+    return Object.hashAll([
       enableFeedback,
       color,
       selectedColor,
